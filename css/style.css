@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+
+/* Cabeçalho da página */
+.cabecalho {
+    align-items: center;
+    border-bottom: 1px solid #FFF2E7;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 0;
+}
+
+.navegacao-cabecalho { 
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    width: 30%;
+}
+
+.navegacao-cabecalho .lista-cabecalho {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navegacao-cabecalho .lista-cabecalho .item {
+    color: #FFF2E7;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 29.35px;
+}    
+
+/* Seção principal da página */
+.principal {
+    border-bottom: 1px solid #FFF2E7;
+}
+
+.balle-bot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.balle-bot .container-meAdicione {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.balle-bot .container-meAdicione .texto-principal {
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-size: 64px;   
+    margin-bottom: 10%; 
+}
+
+.balle-bot .container-meAdicione .paragrafo-principal {
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10%; 
+}
+
+.balle-bot .container-meAdicione .btn-principal {
+    background-color: #ECD6C4;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 0px #00000040;
+    color: #2F2325;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    padding: 3%;
+    width: 33%;
+    text-align: center;
+}
+
+.balle-bot .container-meAdicione .btn-principal:hover {
+    background-color: #b1a092;
+    width: 36%;
+}
+
+.principal hr {
+    width: 15%;
+    margin: 3% auto;
+}
+
+.secao-funcionalidades {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.secao-funcionalidades .paragrafo-funcionalidades {
+    border-top: 0.4px solid #FFF2E7;
+    color: #FFF2E7;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    line-height: 29.35px;
+    padding-top: 3%;
+}
+
+.lista-funcionalidades {
+    margin-top: 2%;
+}
+
+.secao-funcionalidades .lista-funcionalidades .funcionalidade {
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    line-height: 29.35px;
+}
+
+.secao-funcionalidades .lista-funcionalidades li {
+    margin-top: 1.5%;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape .ballerini {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 122.7px;   
+    padding: 0.65%;
+}
